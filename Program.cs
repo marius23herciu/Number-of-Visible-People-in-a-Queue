@@ -37,7 +37,7 @@ namespace Number_of_Visible_People_in_a_Queue
                         counter++;
                         break;
                     }
-                    if (heights[i] > heights[j])
+                    else
                     {
                         if (heights[i] > heights[j] && heights[j] > previousBiggest)
                         {
